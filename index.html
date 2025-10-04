@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlucoVibe Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 2px solid #007AFF;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            color: #007AFF;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            color: #666;
+            font-size: 1.1em;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #007AFF;
+        }
+        
+        .section h2 {
+            color: #007AFF;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        
+        .contact-info {
+            background-color: #e3f2fd;
+            border-left-color: #2196F3;
+        }
+        
+        .faq {
+            background-color: #f3e5f5;
+            border-left-color: #9C27B0;
+        }
+        
+        .support-form {
+            background-color: #e8f5e8;
+            border-left-color: #4CAF50;
+        }
+        
+        .email-link {
+            display: inline-block;
+            background-color: #007AFF;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            margin: 10px 0;
+            transition: background-color 0.3s;
+        }
+        
+        .email-link:hover {
+            background-color: #0056b3;
+        }
+        
+        .faq-item {
+            margin-bottom: 15px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 6px;
+            border: 1px solid #e0e0e0;
+        }
+        
+        .faq-question {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        
+        .faq-answer {
+            color: #666;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        
+        .form-group textarea {
+            height: 120px;
+            resize: vertical;
+        }
+        
+        .submit-btn {
+            background-color: #007AFF;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .submit-btn:hover {
+            background-color: #0056b3;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            color: #666;
+            border-top: 1px solid #e0e0e0;
+            margin-top: 30px;
+        }
+        
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            background-color: #007AFF;
+            border-radius: 20px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                margin: 10px;
+                padding: 15px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .section {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="app-icon">GV</div>
+            <h1>GlucoVibe Support</h1>
+            <p>Your diabetes management companion</p>
+        </div>
+        
+        <div class="section contact-info">
+            <h2>📧 Contact Us</h2>
+            <p>Need help with GlucoVibe? We're here to assist you!</p>
+            <p><strong>Email us directly:</strong></p>
+            <a href="mailto:info.pixelxinteractives@gmail.com" class="email-link">
+                info.pixelxinteractives@gmail.com
+            </a>
+            <p style="margin-top: 15px; color: #666;">
+                <strong>Response Time:</strong> We typically respond within 24 hours during business days.
+            </p>
+        </div>
+        
+        <div class="section faq">
+            <h2>❓ Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">How do I sync my data across devices?</div>
+                <div class="faq-answer">GlucoVibe uses iCloud to sync your data. Make sure you're signed in with the same Apple ID on all devices and have iCloud enabled.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Can I export my glucose data?</div>
+                <div class="faq-answer">Yes! Go to Settings > Data & Sync > Export Data to export your glucose readings, meal logs, and medication records.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">How do I set up glucose target ranges?</div>
+                <div class="faq-answer">Navigate to Settings > Glucose Targets to customize your target ranges based on your diabetes type and healthcare provider's recommendations.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Is my data secure?</div>
+                <div class="faq-answer">Yes, your data is encrypted and stored securely using Apple's iCloud infrastructure. We don't have access to your personal health data.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Can I use the app without an Apple ID?</div>
+                <div class="faq-answer">Yes, you can use Demo Mode for local data storage, but you won't be able to sync across devices without signing in.</div>
+            </div>
+        </div>
+        
+        <div class="section support-form">
+            <h2>📝 Send us a Message</h2>
+            <p>Have a specific question or issue? Fill out the form below and we'll get back to you as soon as possible.</p>
+            
+            <form action="mailto:info.pixelxinteractives@gmail.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" placeholder="e.g., App not syncing, Feature request, Bug report" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Please describe your question or issue in detail..." required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+        
+        <div class="footer">
+            <p><strong>GlucoVibe</strong> - Made with ❤️ by PixelX Interactives</p>
+            <p>© 2024 PixelX Interactives. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
